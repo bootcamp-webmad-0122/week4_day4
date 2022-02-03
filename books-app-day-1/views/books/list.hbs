@@ -1,0 +1,9 @@
+<h1>Listado de libros</h1>
+
+<ul>
+    {{#each books}}
+    <li>{{title}} [<a href="/libros/detalles/{{_id}}">ver</a>]</li>
+    {{/each}}
+</ul>
+
+<a href="/libros/crear">Crear nuevo libro (no trolling pls)</a>
